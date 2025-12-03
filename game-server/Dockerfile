@@ -29,6 +29,6 @@ COPY ./id1/maps /quake/id1/maps
 RUN mv /tmp/server /quake
 RUN chmod +x /quake/server
 
-EXPOSE 27500/UDP
+EXPOSE 27500/udp
 
-CMD ["/quake/server"]
+CMD ["/quake/server", "-port", "27500"]

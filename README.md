@@ -1,4 +1,4 @@
-# CS610-Midterm-Project
+# IT610-Midterm-Project
 ### Created by Lucca Cioffi
 
 ## This is a Docker Quake Server with custom map loading!
